@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan and Benefits | Edward’s Housing Agency</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="images/logo.svg" alt="Edward’s Housing Agency logo">
+
+            <div>
+                <strong>Edward’s Housing Agency</strong>
+                <span>Affordable housing solutions for Jamaica</span>
+            </div>
+        </div>
+
+        <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Housing Services</a>
+            <a href="benefits.html">Loan/Benefits</a>
+            <a href="documents.html">Documents</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Loan & Contributor Benefits</h1>
+            <p>Compare common housing finance options and estimate affordability.</p>
+        </section>
+
+        <section>
+            <h2>Loan and Benefit Options</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Housing Loan</h3>
+                    <p>A long-term loan for purchasing a house or residential lot.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Construction & Repair Loan</h3>
+                    <p>Support for building, repairing or improving a home.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Contributor Benefit</h3>
+                    <p>Reduced interest, grants or subsidies for regular contributors.</p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Comparison Table</h2>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Option</th>
+                            <th>Estimated Amount</th>
+                            <th>Interest</th>
+                            <th>Repayment Period</th>
+                            <th>Best For</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Housing Loan</td>
+                            <td>$1M–$10M</td>
+                            <td>2%–4%</td>
+                            <td>5–20 years</td>
+                            <td>Buying a home or lot</td>
+                        </tr>
+
+                        <tr>
+                            <td>Construction/Repair Loan</td>
+                            <td>$500,000–$3M</td>
+                            <td>2%–4%</td>
+                            <td>5–20 years</td>
+                            <td>Building or improving a home</td>
+                        </tr>
+
+                        <tr>
+                            <td>Contributor Benefit</td>
+                            <td>$100,000–$500,000</td>
+                            <td>Up to 5%</td>
+                            <td>3–5 years</td>
+                            <td>Small support or subsidy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="calculator" class="card">
+            <h2>Simple Monthly Payment Calculator</h2>
+
+            <label>
+                Loan amount (JMD)
+                <input type="number" id="loanAmount" placeholder="3000000">
+            </label>
+
+            <label>
+                Annual interest rate (%)
+                <input type="number" id="interestRate" placeholder="4">
+            </label>
+
+            <label>
+                Years
+                <input type="number" id="loanYears" placeholder="20">
+            </label>
+
+            <button class="btn" id="calcLoan">Calculate</button>
+
+            <p id="calcResult"></p>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h3>Edward’s Housing Agency</h3>
+
+            <p>
+                Serving Jamaican families with affordable housing information, loans,
+                resources and support.
+            </p>
+        </section>
+
+        <section>
+            <p id="dateTime"></p>
+
+            <p>
+                &copy; 2026 Edward’s Housing Agency. Group Web Development Project.
+            </p>
+        </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Edward’s Housing Agency</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="images/logo.svg" alt="Edward’s Housing Agency logo">
+
+            <div>
+                <strong>Edward’s Housing Agency</strong>
+                <span>Affordable housing solutions for Jamaica</span>
+            </div>
+        </div>
+
+        <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Housing Services</a>
+            <a href="benefits.html">Loan/Benefits</a>
+            <a href="documents.html">Documents</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Contact Us</h1>
+            <p>Send us a message about the service you need.</p>
+        </section>
+
+        <section class="grid two">
+            <form id="contactForm" class="card" novalidate>
+                <label>
+                    Name
+                    <input type="text" id="name" name="name">
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" id="email" name="email">
+                </label>
+
+                <label>
+                    Phone
+                    <input type="tel" id="phone" name="phone">
+                </label>
+
+                <label>
+                    Service Needed
+
+                    <select id="service" name="service">
+                        <option value="">Select one</option>
+                        <option>Home Ownership</option>
+                        <option>Housing Loan</option>
+                        <option>Construction/Repair Loan</option>
+                        <option>Documents/Resources</option>
+                    </select>
+                </label>
+
+                <label>
+                    Message
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5">
+                    </textarea>
+                </label>
+
+                <button class="btn" type="submit">
+                    Submit Message
+                </button>
+
+                <p id="formMessage"></p>
+            </form>
+
+            <aside class="card">
+                <h2>Agency Information</h2>
+
+                <p>
+                    <strong>Phone:</strong> (876) 555-0195
+                </p>
+
+                <p>
+                    <strong>Email:</strong> info@edwardshousing.example
+                </p>
+
+                <p>
+                    <strong>Address:</strong> Moneague, St. Ann, Jamaica
+                </p>
+
+                <img
+                    class="rounded"
+                    src="images/family-home.svg"
+                    alt="Family home illustration"
+                >
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h3>Edward’s Housing Agency</h3>
+
+            <p>
+                Serving Jamaican families with affordable housing information,
+                loans, resources and support.
+            </p>
+        </section>
+
+        <section>
+            <p id="dateTime"></p>
+
+            <p>
+                &copy; 2026 Edward’s Housing Agency.
+                Group Web Development Project.
+            </p>
+        </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Edward’s Housing Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="images/logo.svg" alt="Edward’s Housing Agency logo">
+
+            <div>
+                <strong>Edward’s Housing Agency</strong>
+                <span>Affordable housing solutions for Jamaica</span>
+            </div>
+        </div>
+
+        <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Housing Services</a>
+            <a href="benefits.html">Loan/Benefits</a>
+            <a href="documents.html">Documents</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Welcome to Edward’s Housing Agency</h1>
+
+                <p>
+                    We help citizens of Jamaica learn about housing services, loan options,
+                    contributor benefits, documents and application steps.
+                </p>
+
+                <a class="btn" href="services.html">Explore Services</a>
+            </div>
+        </section>
+
+        <section class="grid two">
+            <article>
+                <h2>About the Agency</h2>
+
+                <p>
+                    Founded in 1995, Edward’s Housing Agency is committed to providing clear,
+                    helpful and affordable housing guidance for Jamaican residents and visitors
+                    who need housing support.
+                </p>
+
+                <p>
+                    Our website prototype is inspired by the information style of the NHT,
+                    while using original content for a new agency.
+                </p>
+            </article>
+
+            <aside class="card">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>
+                        <a href="benefits.html#calculator">Estimate a loan payment</a>
+                    </li>
+                    <li>
+                        <a href="documents.html">Download application resources</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Send an enquiry</a>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Featured Housing Gallery</h2>
+
+            <div class="slider">
+                <button id="prevSlide">‹</button>
+
+                <img
+                    id="sliderImage"
+                    src="images/house1.webp"
+                    alt="Housing image gallery"
+                >
+
+                <button id="nextSlide">›</button>
+            </div>
+        </section>
+
+        <section class="media-box">
+            <h2>Audio Welcome</h2>
+
+            <p>Listen to a short welcome sound for the website.</p>
+
+            <audio controls src="media/welcome-message.wav">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h3>Edward’s Housing Agency</h3>
+
+            <p>
+                Serving Jamaican families with affordable housing information, loans,
+                resources and support.
+            </p>
+        </section>
+
+        <section>
+            <p id="dateTime"></p>
+
+            <p>
+                &copy; 2026 Edward’s Housing Agency. Group Web Development Project.
+            </p>
+        </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
